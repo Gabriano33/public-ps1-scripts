@@ -1,12 +1,6 @@
 # Crea un semplice "task manager" in PowerShell che elenca i processi e permette all’utente di terminarne uno digitando il suo ID.
 
 
-# Crea uno script che simula il download di più file mostrando una barra di avanzamento personalizzata.
-# Scrivi uno script che invia un'email automatica con un file allegato.
-
-
-
-
 # Funzione per elencare i processi attivi.
 function Elenca-Processi {
     Get-Process | Select-Object Id, ProcessName
