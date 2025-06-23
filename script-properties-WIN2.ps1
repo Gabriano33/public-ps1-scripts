@@ -82,8 +82,6 @@ Get-Content $propertiesFile | ForEach-Object {
     }
 }
 
-# ... REST OF YOUR SCRIPT REMAINS UNCHANGED ...
-
 
 # Debug output of custom properties
 Write-Host "`n--- Extracted Custom Properties (Total: $($customProperties.Count)) ---" -ForegroundColor Cyan
