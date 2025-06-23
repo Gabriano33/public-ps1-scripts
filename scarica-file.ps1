@@ -2,7 +2,7 @@
 $fileUrl = "https://en.wikipedia.org/wiki/Dependency_inversion_principle"
 
 # Percorso della cartella di destinazione
-$destinationFolder = "C:\Users\gabrielepergola\Downloads\ProvaPowershell\dir1"
+$destinationFolder = "C:\Users\pippo\Downloads\ProvaPowershell\dir1"
 
 # Nome del file da salvare
 $fileName = "file.txt"
