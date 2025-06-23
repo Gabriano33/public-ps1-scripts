@@ -1,6 +1,6 @@
 # Definisci il percorso della cartella di origine e della cartella di destinazione
-$sourceFolder = "C:\Users\gabrielepergola\Downloads\ProvaPowershell\dir1"
-$destinationFolder = "C:\Users\gabrielepergola\Downloads\ProvaPowershell\dir2"
+$sourceFolder = "C:\Users\pippo\Downloads\ProvaPowershell\dir1"
+$destinationFolder = "C:\Users\pippo\Downloads\ProvaPowershell\dir2"
 
 # Verifica se la cartella di destinazione esiste, altrimenti creala
 if (-Not (Test-Path -Path $destinationFolder)) {
