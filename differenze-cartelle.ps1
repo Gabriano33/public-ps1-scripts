@@ -1,8 +1,8 @@
 # Scrivi uno script che confronta il contenuto di due cartelle e segnala le differenze.
 
 # Definisci i percorsi delle due cartelle da confrontare.
-$folder1 = "C:\Users\gabrielepergola\Downloads\ProvaPowershell\dir1"
-$folder2 = "C:\Users\gabrielepergola\Downloads\ProvaPowershell\dir2"
+$folder1 = "C:\Users\pippo\Downloads\ProvaPowershell\dir1"
+$folder2 = "C:\Users\pippo\Downloads\ProvaPowershell\dir2"
 
 # Definisci il percorso del file di output nella stessa cartella dello script.
 $outputFile = "$PSScriptRoot\differenze-cartelle.txt"
