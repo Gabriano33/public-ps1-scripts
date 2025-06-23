@@ -1,7 +1,7 @@
 # Scrivi uno script che rinomina automaticamente tutti i file di una cartella aggiungendo la data al nome.
 
 # Specifica la cartella contenente i file da rinominare
-$folderPath = "C:\Users\gabrielepergola\Downloads\ProvaPowershell\dir1"
+$folderPath = "C:\Users\pippo\Downloads\ProvaPowershell\dir1"
 
 # Ottieni la data corrente nel formato desiderato (ad esempio, DDMMYYYY)
 $date = Get-Date -Format "dd.MM.yyyy"
