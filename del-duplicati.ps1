@@ -23,9 +23,9 @@
     # }
 # }
 
-# ====================== segue: VERSIONE PER SPOSTA  RE NEL CESTINO ==========================
+# ====================== segue: VERSIONE PER SPOSTARE NEL CESTINO ==========================
 # elimina sia copia, che copia (n)
-$FolderPath = "C:\Users\gabrielepergola\Downloads\ProvaPowershell\dir1"
+$FolderPath = "C:\Users\pippo\Downloads\ProvaPowershell\dir1"
 
 # Funzione per spostare i file nel cestino
 function Move-ToRecycleBin {
