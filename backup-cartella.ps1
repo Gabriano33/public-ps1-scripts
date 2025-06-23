@@ -1,6 +1,6 @@
 # Definisci il percorso della cartella di origine e della cartella di destinazione
-$sourceFolder = "C:\Users\gabrielepergola\Downloads\ProvaPowershell\dir1"
-$backupFolder = "C:\Users\gabrielepergola\Downloads\ProvaPowershell\dir3"
+$sourceFolder = "C:\Users\pippo\Downloads\ProvaPowershell\dir1"
+$backupFolder = "C:\Users\pippo\Downloads\ProvaPowershell\dir3"
 
 # Ottieni la data odierna nel formato AAAA-MM-GG
 $date = Get-Date -Format "yyyy-MM-dd"
