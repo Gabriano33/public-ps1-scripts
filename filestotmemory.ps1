@@ -1,5 +1,5 @@
 # Specifica il percorso della directory
-$directoryPath = "C:\Users\gabrielepergola\Downloads\ProvaPowershell"
+$directoryPath = "C:\Users\pippo\Downloads\ProvaPowershell"
 
 # Ottieni tutti i file nella directory e nelle sottodirectory
 $files = Get-ChildItem -Path $directoryPath -File -Recurse
