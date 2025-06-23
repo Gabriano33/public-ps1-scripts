@@ -1,7 +1,7 @@
 # Crea uno script che cerca file duplicati (stesso nome e stessa dimensione) all'interno di una cartella e ne elimina le copie.
 # ===================== VERSIONE PER CANCELLARE DEFINITIVAMENTE ====================
 
-# $sourcePath = "C:\Users\gabrielepergola\Downloads\ProvaPowershell\dir1"
+# $sourcePath = "C:\Users\pippo\Downloads\ProvaPowershell\dir1"
  
 # Get all files with same size
 # $Files = Get-ChildItem -Path $sourcePath -File -Recurse | Sort-Object LastWriteTime -Descending | Group-Object -Property Length | Where-Object {$_.Count -gt 1}
