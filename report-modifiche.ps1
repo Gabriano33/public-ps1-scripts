@@ -1,5 +1,5 @@
 # Set the folder to monitor
-$folderToWatch = "C:\Users\gabrielepergola\Downloads\ProvaPowershell"
+$folderToWatch = "C:\Users\pippo\Downloads\ProvaPowershell"
 
 # Set the log file path
 $logFile = "$PSScriptRoot\activity-report.txt"
