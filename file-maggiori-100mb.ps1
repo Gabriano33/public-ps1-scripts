@@ -1,6 +1,6 @@
 # Trova tutti i file più grandi di 10KB in una cartella e nelle sue sottocartelle.
 # Specifica la cartella da cui iniziare la ricerca
-$folderPath = "C:\Users\gabrielepergola\Downloads\ProvaPowershell"
+$folderPath = "C:\Users\pippo\Downloads\ProvaPowershell"
 
 # Dimensione minima del file in byte (10KB)
 $minSize = 10 * 1KB
