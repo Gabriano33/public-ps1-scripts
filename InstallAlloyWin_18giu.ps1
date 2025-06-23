@@ -3,8 +3,8 @@
 # Modified: Specifica la v1.8.3, funzioni che puoi eventualmente togliere MARCATE IN COMMENTO
 
 param(
-    [string]$LokiEndpoint = "http://10.0.0.100:3100/loki/api/v1/push",
-    [string]$PrometheusEndpoint = "http://10.0.0.100:9009/api/v1/push",
+    [string]$LokiEndpoint = "http://1indirizzo:porta/loki/api/v1/push",
+    [string]$PrometheusEndpoint = "http://indirizzo:porta/api/v1/push",
     [string]$LogPath = "C:\Temp\test.txt"
 )
 
@@ -13,7 +13,7 @@ $ErrorActionPreference = "Stop"
 $installDir = "C:\Program Files\GrafanaLabs\Alloy"
 $configPath = "$installDir\config.alloy"
 $serviceName = "Alloy"
-$Version = "1.8.3"  # Forzata!
+$Version = "1.8.3"  # Forzato alla versione in questione, per evitare rollback
 
 # Logging function (utile per diagnostica)
 function Write-Log {
@@ -55,12 +55,6 @@ function Remove-Exporters {
         }
     }
 }
-
-# -- BLOCCO DI FUNZIONI NON USATE Ora commentato --
-#function Get-LatestVersion { ... (non usata più) }
-#function Get-AvailableVersions { ... (non usata più) }
-#function Test-VersionExists { ... (non usata più) }
-# -------------------------------------------
 
 # Download and install Alloy (mantengo la tolleranza sui nomi file)
 function Install-Alloy {
