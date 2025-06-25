@@ -5,6 +5,6 @@ Questo repository raccoglie una collezione di **script PowerShell** sviluppati p
 
 Troverai script dedicati a:
 - **Utility generiche**
-- **Alloy-related tools**: script pensati per implementare e configurare [Alloy](https://alloytools.org/)
+- **Alloy-related tools**: script pensati per implementare e configurare Grafana Alloy
 
 Contribuzioni, segnalazioni di bug o suggerimenti sono benvenuti! 💡
